@@ -1,4 +1,4 @@
-# node-ejs-kickstart
+# 🏍️💨 node-ejs-kickstart
 Use as a template/starting point for Node/EJS based projects in GitHub codespaces
 
 Uses npx and nodemon to restart server whenever a file is saved
@@ -9,6 +9,7 @@ Uses npx and nodemon to restart server whenever a file is saved
 2. Click the menu then **Run** and **Start in Debug** (or press **F5**)
 3. The server will start and output will appear in the **Debug Console**
 4. Server will be restarted whenever a file is saved
+5. Be sure to push your changes!
 
 To view pages:
 - Open the **"Ports" tab**
