@@ -1,0 +1,22 @@
+img.small {
+    width: 350px;
+    animation: floatUpDown 2s ease-in-out infinite alternate; 
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px); /* Moves 20px upward */
+  }
+}
+
+main {
+    display:block;
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+}
