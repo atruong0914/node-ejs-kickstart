@@ -53,3 +53,45 @@ p {
 .cafe-card-text {
   flex: 1;
 }
+
+.icecream-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.icecream-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.icecream-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-wrap {
+  overflow: hidden;
+}
+
+.img-wrap img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.4s ease;
+}
+
+.icecream-card:hover .img-wrap img {
+  transform: scale(1.1);
+}
+
+.card-text {
+  padding: 15px 20px;
+}
